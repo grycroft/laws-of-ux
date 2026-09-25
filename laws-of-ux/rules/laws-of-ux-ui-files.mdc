@@ -1,0 +1,20 @@
+---
+description: Apply the Laws of UX whenever creating or editing user interface code for web or mobile
+globs: ["**/*.tsx", "**/*.jsx", "**/*.vue", "**/*.svelte", "**/*.html", "**/*.blade.php", "**/*.css", "**/*.scss", "**/*.swift", "**/*.kt", "**/*.dart"]
+alwaysApply: false
+---
+When creating or changing user interface code, use the `laws-of-ux` skill and apply its rules while building, not only as a review afterwards.
+
+Minimum bar for every UI change:
+- One visually distinct primary action per view or section (Von Restorff, Selective Attention).
+- Spacing shows structure: less space inside groups than between them; labels closest to their own fields (Proximity).
+- Same function looks the same; links and buttons are clearly distinct from text, not by colour alone (Similarity).
+- Keep choices few and highlight a recommended option; long lists get search or filters (Hick's Law, Choice Overload).
+- Follow established web and platform conventions and the project's design system (Jakob's Law).
+- Touch targets at least 44x44pt iOS, 48x48dp Android, 24x24 CSS px web (WCAG 2.2 AA) with spacing (Fitts's Law).
+- Visible feedback within 100ms; show loading states if a response takes longer than 400ms (Doherty Threshold).
+- Accept varied input and normalise it; use correct input types and autocomplete attributes (Postel's, Parkinson's).
+- Design the success, error and empty states (Peak-End Rule).
+- No dark patterns; respect prefers-reduced-motion; meet WCAG 2.2 AA.
+
+After a UI change, add a short "UX laws applied" note naming the laws that drove real decisions and any trade-offs.

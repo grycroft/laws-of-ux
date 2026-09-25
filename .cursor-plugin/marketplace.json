@@ -1,0 +1,13 @@
+{
+  "name": "camra-marketplace",
+  "owner": { "name": "CAMRA IT", "email": "gregory.rycroft@camra.org.uk" },
+  "metadata": { "description": "CAMRA internal Cursor plugins", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "laws-of-ux",
+      "source": "laws-of-ux",
+      "description": "Apply the 30 Laws of UX when building web and mobile interfaces",
+      "category": "design"
+    }
+  ]
+}

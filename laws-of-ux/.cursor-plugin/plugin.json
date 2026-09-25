@@ -1,0 +1,8 @@
+{
+  "name": "laws-of-ux",
+  "version": "1.0.0",
+  "description": "Applies the 30 Laws of UX (lawsofux.com) when designing, building or reviewing web and mobile user interfaces.",
+  "author": { "name": "CAMRA IT", "email": "gregory.rycroft@camra.org.uk" },
+  "homepage": "https://lawsofux.com/",
+  "keywords": ["ux", "ui", "design", "accessibility", "frontend", "mobile", "laws-of-ux"]
+}
